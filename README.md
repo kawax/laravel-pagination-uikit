@@ -37,7 +37,7 @@ class AppServiceProvider extends ServiceProvider
 
 ## Publishing Views(Optional)
 ```
-php artisan vendor:publish --provider="Revolution\Pagination\UIkit\UIkitServiceProvider"
+php artisan vendor:publish --tag=pagination-uikit
 ```
 
 `resources/views/vendor/pagination-uikit`
