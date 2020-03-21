@@ -15,7 +15,7 @@ class UIkitServiceProvider extends ServiceProvider
 
         $this->publishes(
             [
-                __DIR__.'/../pagination' => resource_path('views/vendor/pagination-uikit'),
+                __DIR__.'/../pagination' => $this->app->resourcePath('views/vendor/pagination-uikit'),
             ],
             'pagination-uikit'
         );
