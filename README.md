@@ -3,8 +3,10 @@
 https://getuikit.com/
 
 ## Requirements
-- PHP >= 7.2
-- Laravel >= 6.0
+- PHP >= 8.0
+- Laravel >= 10.0
+
+> No version restrictions. It may stop working in future versions.
 
 ## Installation
 
@@ -24,10 +26,8 @@ class AppServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
-     *
-     * @return void
      */
-    public function boot()
+    public function boot(): void
     {
         Paginator::defaultView('pagination-uikit::uikit3');
         Paginator::defaultSimpleView('pagination-uikit::uikit3-simple');
